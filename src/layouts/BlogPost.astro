@@ -52,6 +52,8 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				font-style: italic;
 			}
 		</style>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
 	</head>
 
 	<body>
@@ -59,7 +61,8 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<main>
 			<article>
 				<div class="hero-image">
-					{heroImage && <img width={1020} height={510} src={heroImage} alt="" />}
+					{heroImage && <img src={heroImage} alt="" width="720" height="auto" />}
+
 				</div>
 				<div class="prose">
 					<div class="title">
