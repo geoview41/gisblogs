@@ -35,14 +35,14 @@ body {
 	margin: 0;
 	padding: 0;
 	text-align: left;
-	background: linear-gradient(var(--gray-gradient)) no-repeat;
-	background-size: 100% 600px;
+	background: linear-gradient(to bottom right, #f4f7fb, #dbeafe);
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: rgb(var(--gray-dark));
 	font-size: 20px;
 	line-height: 1.7;
 }
+
 main {
 	width: 720px;
 	max-width: calc(100% - 2em);
@@ -153,3 +153,29 @@ hr {
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
+
+/* Dark mode base */
+body.dark {
+	background: linear-gradient(to bottom right, #1e1e2f, #111827);
+	color: #f1f5f9;
+  }
+  
+  body.dark a {
+	color: #60a5fa;
+  }
+  
+  body.dark h1,
+  body.dark h2,
+  body.dark h3 {
+	color: #f9fafb;
+  }
+  
+  body.dark code {
+	background-color: #374151;
+	color: #e5e7eb;
+  }
+  
+  body.dark img {
+	border: 2px solid #444;
+  }
+  

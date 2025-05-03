@@ -5,6 +5,8 @@ import { SITE_TITLE } from '../consts';
 
 <header>
 	<nav>
+
+
 		<h2><a href="/">{SITE_TITLE}</a></h2>
 		<div class="internal-links">
 			<HeaderLink href="/blog">Blog</HeaderLink>
@@ -43,6 +45,18 @@ import { SITE_TITLE } from '../consts';
 	</nav>
 </header>
 <style>
+#theme-toggle {
+  margin-left: 1rem;
+  padding: 0.5em 1em;
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+
 	header {
 		margin: 0;
 		padding: 0 1em;
