@@ -3,6 +3,7 @@ title: 'Snow cover in the Alps'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: 'May 05 2025'
 heroImage: '/DSC03863.JPG'
+category: 'nature'
 ---
 
 ## Snow cover change in April (2021–2025)

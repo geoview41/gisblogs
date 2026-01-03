@@ -2,6 +2,7 @@
 title: 'Strava - global heatmap'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: 'May 06 2025'
+category: 'transport'
 heroImage: '/strava_suissegeneve.png'
 ---
 
